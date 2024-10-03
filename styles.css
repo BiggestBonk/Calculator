@@ -1,0 +1,51 @@
+table,
+td {
+  border: 1px solid;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+  height: 40vh;
+  background-color: grey;
+}
+
+.display {
+  border: 1px solid;
+  text-align: right;
+  width: 100%;
+  height: 4rem;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  background-color: rgb(191, 194, 161);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  margin-bottom: auto;
+  width: 30vw;
+}
+
+.filler {
+  background-color: grey;
+  border: none;
+  padding: 0;
+}
+
+.digit {
+  background-color: rgb(126, 159, 189);
+}
+
+.operator {
+  background-color: rgb(139, 41, 38);
+}
+
+.clear {
+  background-color: rgb(231, 234, 236);
+}
