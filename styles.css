@@ -1,6 +1,7 @@
 table,
 td {
   border: 1px solid;
+  width: 30vw;
 }
 
 table {
@@ -46,6 +47,10 @@ table {
   background-color: rgb(139, 41, 38);
 }
 
-.clear {
+#clear {
   background-color: rgb(231, 234, 236);
+}
+
+.finalize {
+  background-color: rgb(64, 64, 230);
 }

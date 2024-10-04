@@ -3,44 +3,44 @@
 
 <head>
   <meta charset="UTF-8">
-  <script src="main.js"></script>
+  <script src="main.js" defer></script>
   <link rel="stylesheet" href="styles.css">
   <title>Calculator</title>
 </head>
 
 <body>
   <div class="container">
-    <div class="display">785.3</div>
+    <div class="display"></div>
     <table>
       <tr>
-        <td class="digit" id="1">1</td>
-        <td class="digit" id="2">2</td>
-        <td class="digit" id="3">3</td>
+        <td class="digit">1</td>
+        <td class="digit">2</td>
+        <td class="digit">3</td>
         <td class="filler"></td>
       </tr>
       <tr>
-        <td class="digit" id="4">4</td>
-        <td class="digit" id="5">5</td>
-        <td class="digit" id="6">6</td>
+        <td class="digit">4</td>
+        <td class="digit">5</td>
+        <td class="digit">6</td>
         <td class="filler"></td>
       </tr>
       <tr>
-        <td class="digit" id="7">7</td>
-        <td class="digit" id="8">8</td>
-        <td class="digit" id="9">9</td>
-        <td class="filler"></td>
+        <td class="digit">7</td>
+        <td class="digit">8</td>
+        <td class="digit">9</td>
+
       </tr>
       <tr>
-        <td class="digit" id="0">0</td>
-        <td class="operator" id="+">+</td>
-        <td class="operator" id="-">-</td>
-        <td class="filler"></td>
+        <td class="digit">0</td>
+        <td class="digit" id="decimal-point">.</td>
+        <td class="operator" id="0">+</td>
+        <td class="finalize" id="equals">=</td>
       </tr>
       <tr>
-        <td class="operator" id="x">x</td>
-        <td class="operator" id="/">÷</td>
-        <td class="operator" id="=">=</td>
-        <td class="clear" id="clear">Clear</td>
+        <td class="operator" id="1">-</td>
+        <td class="operator" id="2">x</td>
+        <td class="operator" id="3">÷</td>
+        <td id="clear">Clear</td>
       </tr>
     </table>
   </div>
